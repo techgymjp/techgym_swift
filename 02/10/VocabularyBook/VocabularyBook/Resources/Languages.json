@@ -1,0 +1,426 @@
+[
+    {
+        "language": "af",
+        "text_jp": "アフリカーンス語"
+    },
+    {
+        "language": "am",
+        "text_jp": "アムハラ語"
+    },
+    {
+        "language": "ar",
+        "text_jp": "アラビア語"
+    },
+    {
+        "language": "az",
+        "text_jp": "アゼルバイジェン語"
+    },
+    {
+        "language": "be",
+        "text_jp": "ベラルーシ語"
+    },
+    {
+        "language": "bg",
+        "text_jp": "ブルガリア語"
+    },
+    {
+        "language": "bn",
+        "text_jp": "ベンガル文字"
+    },
+    {
+        "language": "bs",
+        "text_jp": "ボスニア語"
+    },
+    {
+        "language": "ca",
+        "text_jp": "カタルーニャ語"
+    },
+    {
+        "language": "ceb",
+        "text_jp": "セブアノ語"
+    },
+    {
+        "language": "co",
+        "text_jp": "コルシカ語"
+    },
+    {
+        "language": "cs",
+        "text_jp": "チェコ語"
+    },
+    {
+        "language": "cy",
+        "text_jp": "ウェールズ語"
+    },
+    {
+        "language": "da",
+        "text_jp": "デンマーク語"
+    },
+    {
+        "language": "de",
+        "text_jp": "ドイツ語"
+    },
+    {
+        "language": "el",
+        "text_jp": "ギリシア語"
+    },
+    {
+        "language": "en",
+        "text_jp": "英語"
+    },
+    {
+        "language": "eo",
+        "text_jp": "エスペラント"
+    },
+    {
+        "language": "es",
+        "text_jp": "スペイン語"
+    },
+    {
+        "language": "et",
+        "text_jp": "エストニア語"
+    },
+    {
+        "language": "eu",
+        "text_jp": "バスク語"
+    },
+    {
+        "language": "fa",
+        "text_jp": "ペルシャ語"
+    },
+    {
+        "language": "fi",
+        "text_jp": "フィンランド語"
+    },
+    {
+        "language": "fr",
+        "text_jp": "フランス語"
+    },
+    {
+        "language": "fy",
+        "text_jp": "フリジア語"
+    },
+    {
+        "language": "ga",
+        "text_jp": "アイルランド語"
+    },
+    {
+        "language": "gd",
+        "text_jp": "ゲール語"
+    },
+    {
+        "language": "gl",
+        "text_jp": "ガリシア語"
+    },
+    {
+        "language": "gu",
+        "text_jp": "グジャラト語"
+    },
+    {
+        "language": "ha",
+        "text_jp": "ハウサ語"
+    },
+    {
+        "language": "haw",
+        "text_jp": "ハワイ語"
+    },
+    {
+        "language": "he",
+        "text_jp": "ヘブライ語"
+    },
+    {
+        "language": "hi",
+        "text_jp": "ヒンディー語"
+    },
+    {
+        "language": "hmn",
+        "text_jp": "フモン語"
+    },
+    {
+        "language": "hr",
+        "text_jp": "クロアチア語"
+    },
+    {
+        "language": "ht",
+        "text_jp": "ハイチ語"
+    },
+    {
+        "language": "hu",
+        "text_jp": "ハンガリー語"
+    },
+    {
+        "language": "hy",
+        "text_jp": "アルメニア語"
+    },
+    {
+        "language": "id",
+        "text_jp": "インドネシア語"
+    },
+    {
+        "language": "ig",
+        "text_jp": "イグボ語"
+    },
+    {
+        "language": "is",
+        "text_jp": "アイスランド語"
+    },
+    {
+        "language": "it",
+        "text_jp": "イタリア語"
+    },
+    {
+        "language": "kk",
+        "text_jp": "カザフ語"
+    },
+    {
+        "language": "km",
+        "text_jp": "クメール語"
+    },
+    {
+        "language": "kn",
+        "text_jp": "カンナダ語"
+    },
+    {
+        "language": "ko",
+        "text_jp": "韓国語"
+    },
+    {
+        "language": "ku",
+        "text_jp": "クルド語"
+    },
+    {
+        "language": "ky",
+        "text_jp": "キルギス語"
+    },
+    {
+        "language": "la",
+        "text_jp": "ラテン語"
+    },
+    {
+        "language": "lb",
+        "text_jp": "ルクセンブルク語"
+    },
+    {
+        "language": "lo",
+        "text_jp": "ラオ語"
+    },
+    {
+        "language": "lt",
+        "text_jp": "リトアニア語"
+    },
+    {
+        "language": "lv",
+        "text_jp": "ラトビア語"
+    },
+    {
+        "language": "mg",
+        "text_jp": "マラガシ語"
+    },
+    {
+        "language": "mi",
+        "text_jp": "マオリ語"
+    },
+    {
+        "language": "mk",
+        "text_jp": "マケドニア語"
+    },
+    {
+        "language": "ml",
+        "text_jp": "マラヤーラム文字"
+    },
+    {
+        "language": "mn",
+        "text_jp": "モンゴル語"
+    },
+    {
+        "language": "mr",
+        "text_jp": "マラーティー語"
+    },
+    {
+        "language": "ms",
+        "text_jp": "マレー語"
+    },
+    {
+        "language": "mt",
+        "text_jp": "マルタ語"
+    },
+    {
+        "language": "my",
+        "text_jp": "ミャンマー語（ビルマ語）"
+    },
+    {
+        "language": "ne",
+        "text_jp": "ネパール語"
+    },
+    {
+        "language": "nl",
+        "text_jp": "オランダ語"
+    },
+    {
+        "language": "no",
+        "text_jp": "ノルウェー語"
+    },
+    {
+        "language": "ny",
+        "text_jp": "ニャンジャ語（チェワ語）"
+    },
+    {
+        "language": "or",
+        "text_jp": "オリヤ語"
+    },
+    {
+        "language": "pa",
+        "text_jp": "パンジャブ語"
+    },
+    {
+        "language": "pl",
+        "text_jp": "ポーランド語"
+    },
+    {
+        "language": "ps",
+        "text_jp": "パシュト語"
+    },
+    {
+        "language": "pt",
+        "text_jp": "ポルトガル語（ポルトガル、ブラジル）"
+    },
+    {
+        "language": "ro",
+        "text_jp": "ルーマニア語"
+    },
+    {
+        "language": "ru",
+        "text_jp": "ロシア語"
+    },
+    {
+        "language": "rw",
+        "text_jp": "キニヤルワンダ語"
+    },
+    {
+        "language": "sd",
+        "text_jp": "シンド語"
+    },
+    {
+        "language": "si",
+        "text_jp": "シンハラ語"
+    },
+    {
+        "language": "sk",
+        "text_jp": "スロバキア語"
+    },
+    {
+        "language": "sl",
+        "text_jp": "スロベニア語"
+    },
+    {
+        "language": "sm",
+        "text_jp": "サモア語"
+    },
+    {
+        "language": "sn",
+        "text_jp": "ショナ語"
+    },
+    {
+        "language": "so",
+        "text_jp": "ソマリ語"
+    },
+    {
+        "language": "sq",
+        "text_jp": "アルバニア語"
+    },
+    {
+        "language": "sr",
+        "text_jp": "セルビア語"
+    },
+    {
+        "language": "st",
+        "text_jp": "セソト語"
+    },
+    {
+        "language": "su",
+        "text_jp": "スンダ語"
+    },
+    {
+        "language": "sv",
+        "text_jp": "スウェーデン語"
+    },
+    {
+        "language": "sw",
+        "text_jp": "スワヒリ語"
+    },
+    {
+        "language": "ta",
+        "text_jp": "タミル語"
+    },
+    {
+        "language": "te",
+        "text_jp": "テルグ語"
+    },
+    {
+        "language": "tg",
+        "text_jp": "タジク語"
+    },
+    {
+        "language": "th",
+        "text_jp": "タイ語"
+    },
+    {
+        "language": "tk",
+        "text_jp": "トルクメン語"
+    },
+    {
+        "language": "tl",
+        "text_jp": "タガログ語（フィリピン語）"
+    },
+    {
+        "language": "tr",
+        "text_jp": "トルコ語"
+    },
+    {
+        "language": "tt",
+        "text_jp": "タタール語"
+    },
+    {
+        "language": "ug",
+        "text_jp": "ウイグル語"
+    },
+    {
+        "language": "uk",
+        "text_jp": "ウクライナ語"
+    },
+    {
+        "language": "ur",
+        "text_jp": "ウルドゥー語"
+    },
+    {
+        "language": "uz",
+        "text_jp": "ウズベク語"
+    },
+    {
+        "language": "vi",
+        "text_jp": "ベトナム語"
+    },
+    {
+        "language": "xh",
+        "text_jp": "コーサ語"
+    },
+    {
+        "language": "yi",
+        "text_jp": "イディッシュ語"
+    },
+    {
+        "language": "yo",
+        "text_jp": "ヨルバ語"
+    },
+    {
+        "language": "zh-CN",
+        "text_jp": "中国語（簡体）"
+    },
+    {
+        "language": "zh-TW",
+        "text_jp": "中国語（繁体）"
+    },
+    {
+        "language": "zu",
+        "text_jp": "ズールー語"
+    }
+]
