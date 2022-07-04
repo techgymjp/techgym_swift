@@ -49,6 +49,7 @@ struct DrawCanvasView: View {
                     .frame(width: UtileSize.decode(40))
                 Spacer()
                 Slider(value: $currentLineWidth, in: MIN_LINE_WIDTH...MAX_LINE_WIDTH)
+                    .frame(width: UtileSize.decode(120))
                 Spacer()
                 Button(action: {
                     sendClear()
