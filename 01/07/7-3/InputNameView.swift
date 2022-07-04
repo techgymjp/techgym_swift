@@ -11,8 +11,9 @@ struct InputNameView: View {
     var body: some View {
         NavigationView {
             VStack() {
-                Image("network")
+                Image("logo")
                     .resizable()
+                    .scaledToFit()
                     .frame(width: UtileSize.decode(160), height: UtileSize.decode(160))
                     .clipShape(Circle())
                     .overlay (
