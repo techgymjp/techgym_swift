@@ -13,7 +13,7 @@ class PacketModel: Codable {
     var userInfo : UserInfoModel
 
     enum Command: String, Codable {
-        case BECON  = "becon"
+        case BEACON = "beacon"
         case LINE   = "line"
         case CLEAR  = "clear"
     }

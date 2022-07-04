@@ -14,7 +14,7 @@ class PacketModel: Codable {
     var drawLine : DrawLineModel?
 
     enum Command: String, Codable {
-        case BECON  = "becon"
+        case BEACON = "beacon"
         case LINE   = "line"
         case CLEAR  = "clear"
     }

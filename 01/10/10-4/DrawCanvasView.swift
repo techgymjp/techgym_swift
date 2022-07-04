@@ -33,21 +33,21 @@ struct DrawCanvasView: View {
         VStack {
         }
         .onAppear() {
-            sendBecon()
+            sendBeacon()
         }
         .onReceive(timer) { _ in
-            sendBecon()
+            sendBeacon()
         }
     }
     
-    func sendBecon() {
+    func sendBeacon() {
         do {
             let encoder = JSONEncoder()
-            let packet = PacketModel(command: .BECON, userInfo: myUserInfo)
+            let packet = PacketModel(command: .BEACON, userInfo: myUserInfo)
             let data :Data =  try encoder.encode(packet)
             udpConnection.send(payload : data)
         } catch {
-            NSLog("error sendBecon")
+            NSLog("error sendBeacon")
         }
     }
 }

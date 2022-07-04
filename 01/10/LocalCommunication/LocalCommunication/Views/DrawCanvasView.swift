@@ -34,25 +34,25 @@ struct DrawCanvasView: View {
         VStack {
         }
         .onAppear() {
-            sendBecon()
+            sendBeacon()
         }
         .onReceive(timer) { _ in
             refreshUsers()
-            sendBecon()
+            sendBeacon()
         }
         .onReceive(udpConnection.recvDataSubject) { data in
             recvData(data)
         }
     }
     
-    func sendBecon() {
+    func sendBeacon() {
         do {
             let encoder = JSONEncoder()
-            let packet = PacketModel(command: .BECON, userInfo: myUserInfo)
+            let packet = PacketModel(command: .BEACON, userInfo: myUserInfo)
             let data :Data =  try encoder.encode(packet)
             udpConnection.send(payload : data)
         } catch {
-            NSLog("error sendBecon")
+            NSLog("error sendBeacon")
         }
     }
     
@@ -62,7 +62,7 @@ struct DrawCanvasView: View {
             let packet: PacketModel = try decoder.decode(PacketModel.self, from: data)
             
             switch packet.command {
-            case .BECON :
+            case .BEACON :
                 if let user = users.first(where: { $0.userinfo.id == packet.userInfo.id }) {
                     user.counter = BEACON_LIFETIME
                 } else {
