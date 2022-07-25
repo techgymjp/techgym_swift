@@ -85,7 +85,7 @@ struct VocabulariesView: View {
                             .padding()
                         }
                         
-                        Text(vocab.transrated ?? "")
+                        Text(vocab.translated ?? "")
                             .font(.system(size: 20))
                             .minimumScaleFactor(0.0001)
                             .lineLimit(5)
@@ -128,7 +128,7 @@ struct VocabulariesView: View {
     }
     
     private func speak(vocab:Vocabulary) {
-        let speech = AVSpeechUtterance(string: vocab.transrated ?? "")  // 言葉の設定
+        let speech = AVSpeechUtterance(string: vocab.translated ?? "")  // 言葉の設定
         speech.voice = AVSpeechSynthesisVoice(language: vocab.language) // 言語の設定
         VocabulariesView.synthesizer.speak(speech)
     }

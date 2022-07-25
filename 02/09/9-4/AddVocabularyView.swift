@@ -122,7 +122,7 @@ struct AddVocabularyView: View {
         newVocab.id = UUID()
         newVocab.language = language
         newVocab.jp = strSearch
-        newVocab.transrated = strTranslated
+        newVocab.translated = strTranslated
         
         do {
             let request = NSFetchRequest<Vocabulary>(entityName: "Vocabulary")

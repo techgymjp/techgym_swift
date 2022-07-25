@@ -81,7 +81,7 @@ struct VocabulariesView: View {
                             .padding()
                         }
                         
-                        Text(vocab.transrated ?? "")
+                        Text(vocab.translated ?? "")
                             .font(.system(size: 20))
                             .minimumScaleFactor(0.0001)
                             .lineLimit(5)
