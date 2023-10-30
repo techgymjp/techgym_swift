@@ -15,7 +15,7 @@ struct LanguagesView: View {
     @State private var isShowAddLanguageView = false
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 ForEach(languages) { language in
                     NavigationLink(destination: VocabulariesView()) {

@@ -13,7 +13,7 @@ struct LanguagesView: View {
     private var languages: FetchedResults<Language>
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 ForEach(languages) { language in
                     NavigationLink(destination: VocabulariesView()) {

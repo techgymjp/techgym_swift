@@ -18,7 +18,7 @@ struct LanguagesView: View {
     @State private var deleteIndex: Int? = nil
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 ForEach(languages) { language in
                     NavigationLink(destination: VocabulariesView(language: language.language ?? "")) {
