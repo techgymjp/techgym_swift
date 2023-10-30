@@ -207,7 +207,7 @@ struct DrawCanvasView: View {
 
 struct DrawCanvas_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
+        NavigationStack {
             DrawCanvasView(myUserInfo: UserInfoModel(name: "プレビュー太郎", icon: .robot))
         }
     }

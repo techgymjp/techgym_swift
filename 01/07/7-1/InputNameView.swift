@@ -9,7 +9,7 @@ struct InputNameView: View {
     @State private var myUserInfo = UserInfoModel(name: "")
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             NavigationLink(destination: DrawCanvasView()) {
                 Text("スタート")
                     .fontWeight(.semibold)

@@ -7,7 +7,7 @@ import SwiftUI
 
 struct ListView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 ForEach(ProgramModels) { prog in
                     NavigationLink(destination: DetailView(programModel:prog)) {

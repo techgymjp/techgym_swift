@@ -7,7 +7,7 @@ import SwiftUI
 
 struct InputNameView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             NavigationLink(destination: DrawCanvasView()) {
                 Text("スタート")
                     .fontWeight(.semibold)

@@ -13,7 +13,7 @@ struct InputNameView: View {
     }
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack() {
                 Image("logo")
                     .resizable()
